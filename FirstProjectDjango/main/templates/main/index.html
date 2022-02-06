@@ -1,0 +1,14 @@
+{% extends 'main/layout.html' %}
+
+{% block title%}{{ title }}{% endblock%}
+{% block content%}
+    <div class="features">
+        <h1>{{ title }}</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam at culpa, dolores expedita, magni nemo nobis odit optio provident quas, quidem quis ratione recusandae sapiente sequi suscipit temporibus velit.</p>
+        <a href="{%url 'about' %}"><button class="btn btn-warning">На страницу про нас</button></a>
+
+
+
+    </div>
+
+{% endblock%}
